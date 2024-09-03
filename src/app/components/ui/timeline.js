@@ -18,7 +18,7 @@ export const Timeline = ({ data }) => {
       .select("*", { count: "exact", head: true });
 
     if (error) {
-      console.error("Error fetching voting count:", error);
+      // console.error("Error fetching voting count:", error);
     } else {
       setVotingCount(count);
     }

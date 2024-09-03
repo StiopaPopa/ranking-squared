@@ -121,10 +121,10 @@ export const RankButton = ({ onSubmit }) => {
           .single();
 
         if (fetchError) {
-          console.error(
-            `Error fetching points for ${rankingName}:`,
-            fetchError
-          );
+          // console.error(
+          //   `Error fetching points for ${rankingName}:`,
+          //   fetchError
+          // );
           continue;
         }
 
@@ -142,10 +142,10 @@ export const RankButton = ({ onSubmit }) => {
           .eq("ranking_name", rankingName);
 
         if (updateError) {
-          console.error(
-            `Error updating points for ${rankingName}:`,
-            updateError
-          );
+          // console.error(
+          //   `Error updating points for ${rankingName}:`,
+          //   updateError
+          // );
         }
       }
 
@@ -156,7 +156,7 @@ export const RankButton = ({ onSubmit }) => {
       ]);
 
       if (error) {
-        console.error("Error inserting voting log:", error);
+        // console.error("Error inserting voting log:", error);
       } else {
         // Call the onSubmit prop to update the voting count
         onSubmit();
@@ -167,7 +167,7 @@ export const RankButton = ({ onSubmit }) => {
       setIsDialogOpen(false);
       setIsConfirmationOpen(true);
     } catch (error) {
-      console.error("Error submitting rankings:", error);
+      // console.error("Error submitting rankings:", error);
     } finally {
       setLoading(false);
     }
@@ -260,7 +260,7 @@ export const RankButton = ({ onSubmit }) => {
               onClick={resetSelections}
               className="border-2 border-neutral-500"
             >
-              Reset Selections
+              Reset selections
             </Button>
             <Button
               type="submit"

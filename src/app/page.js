@@ -2,6 +2,10 @@ import Image from "next/image";
 import { Ranking } from "./components/Ranking";
 import Footer from "./components/Footer";
 
+export const metadata = {
+  title: "Ranking^2",
+};
+
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">

@@ -72,7 +72,7 @@ export function Ranking() {
       .select("ranking_name, points");
 
     if (error) {
-      console.error("Error fetching initial rankings:", error);
+      // console.error("Error fetching initial rankings:", error);
     } else {
       setRankings((currentRankings) =>
         currentRankings.map((ranking) => {

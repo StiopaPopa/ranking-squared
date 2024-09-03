@@ -27,7 +27,7 @@ export const ConfirmationModal = ({ isOpen, setIsOpen, pointsChange }) => {
           </div>
           <p>
             Oh, and you can go vote again, as many times as you want. This
-            ranking didn't mean anything before, neither does it now!
+            ranking didn&apos;t mean anything before, neither does it now!
           </p>
           <button
             onClick={() => setIsOpen(false)}

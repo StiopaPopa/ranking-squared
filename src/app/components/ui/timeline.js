@@ -95,7 +95,7 @@ export const Timeline = ({ data }) => {
             {votingCount.toLocaleString()}
           </div>
           <div className="text-center text-xl md:text-3xl text-neutral-700 dark:text-neutral-300 mt-2">
-            ranking^2's created
+            ranking^2&apos;s created
           </div>
         </div>
       </div>

@@ -34,11 +34,11 @@ export function MetricCarousel() {
     },
     {
       ranking: "Shanghai Ranking",
-      metric: "number of alumni winning Nobel Prizes 🥇",
+      metric: "number of alumni Nobel laureates 🥇",
     },
     {
       ranking: "Times Higher Education",
-      metric: "number of outbound Study Abroad students ✈️",
+      metric: "number of Study Abroad students ✈️",
     },
   ];
   return (

@@ -233,7 +233,7 @@ export const RankButton = ({ onSubmit }) => {
             <div className="grid gap-2">
               <div className="flex items-center justify-between">
                 <Label>
-                  Fuck it: Keep randomizing the remaining order until
+                  Screw it: Keep randomizing the remaining order until
                   you&apos;re happy!
                 </Label>
                 <Button
